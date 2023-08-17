@@ -14,6 +14,7 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Overview />} />
+          <Route path="/overview" element={<Overview />} />
           <Route path="/sensors" element={<Sensors />} />
           <Route path="/ai" element={<Ai />} />
           <Route path="/sensors" element={<Sensors />} />

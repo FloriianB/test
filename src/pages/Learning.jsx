@@ -14,13 +14,13 @@ export default function Learning() {
                onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'}
                onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>
             <h2 style={{ color: '#555', fontSize: '18px' }}>DBSCAN Algorithm</h2>
-            <p style={{ lineHeight: '1.7', marginTop: '20px', fontSize: '16px', color: '#777' }}>DBSCAN...</p>
+            <p style={{ lineHeight: '1.7', marginTop: '20px', fontSize: '16px', color: '#777' }}>DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a clustering algorithm that groups together points that are close to each other based on a distance measurement and a minimum number of points. It also marks as outliers the points that are in low-density regions.</p>
           </div>
           <div className="algorithm" style={{ transition: 'all 0.3s', padding: '20px' }}
                onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'}
                onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>
             <h2 style={{ color: '#555', fontSize: '18px' }}>K-Nearest Neighbour Algorithm</h2>
-            <p style={{ lineHeight: '1.7', marginTop: '20px', fontSize: '16px', color: '#777' }}>The K-Nearest...</p>
+            <p style={{ lineHeight: '1.7', marginTop: '20px', fontSize: '16px', color: '#777' }}>The K-Nearest Neighbours (K-NN) algorithm is a type of instance-based learning used for classification and regression. It stores all available cases and classifies new cases based on a similarity measure, such as distance functions</p>
           </div>
         </section>
       </main>

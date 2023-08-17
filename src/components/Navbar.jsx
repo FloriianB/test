@@ -1,118 +1,79 @@
+import React from 'react';
 import { Link, Outlet } from "react-router-dom";
-import '../styles.css'
+import logo from '../assets/images/ki-pilot.png';
 
 const Navbar = () => {
   const navStyle = {
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "#f7f6f1",
+    textDecoration: "none",
+    borderBottom: '1px solid #eaeaea',
     transition: "background-color 0.3s ease",
+    
+  };
+
+  const listStyle = {
+    display: 'flex', // Fügt Flex-Layout hinzu
+    listStyleType: 'none', // Entfernt Punkte
+    padding: 0, // Entfernt Padding
+    margin: 0, // Entfernt Margin
+  };
+
+  const listItemStyle = {
+    marginRight: '1rem', // Fügt rechten Abstand zwischen den Listenelementen hinzu
   };
 
   const containerStyle = {
     display: "flex",
     justifyContent: "space-between",
+    textDecoration: "none",
     alignItems: "center",
-    padding: "1rem 0",
-  };
-
-  const ulStyle = {
-    listStyleType: "none",
-    display: "flex",
-    gap: "1.5rem",
+    padding: "1rem 2rem",
+    maxWidth: '1200px',
+    margin: 'auto'
+    
   };
 
   const linkStyle = {
     textDecoration: "none",
+  
     color: "#333",
-    transition: "color 0.3s ease",
+    position: 'relative',
+    padding: '0.3125rem 0',
+    fontWeight: '400',
+    fontSize: '.625rem',
+    letterSpacing: '.01em',
+    lineHeight: '1.1',
+    textTransform: 'uppercase',
   };
 
   const linkHoverStyle = {
-    color: "#777",
+    textDecoration: "none",
+    opacity: '1',
   };
 
   return (
-    <>
-      <nav style={navStyle}>
-        <div style={containerStyle} className="container mx-auto">
-          <div className="text-2xl font-bold">MyWebsite</div>
-          <ul style={ulStyle}>
-            <li>
-              <Link to="/" style={linkStyle} onMouseOver={linkHoverStyle}>
-                Overview
-              </Link>
-            </li>
-            <li>
-              <Link to="/sensors" style={linkStyle} onMouseOver={linkHoverStyle}>
-                Sensors
-              </Link>
-            </li>
-            <li>
-              <Link to="/ai" style={linkStyle} onMouseOver={linkHoverStyle}>
-                Ai
-              </Link>
-            </li>
-            <li>
-              <Link to="/learning" style={linkStyle} onMouseOver={linkHoverStyle}>
-                Learning
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" style={linkStyle} onMouseOver={linkHoverStyle}>
-                About
-              </Link>
-            </li>
+    <header className="header">
+      <nav style={navStyle} className="main-navigation">
+        <div style={containerStyle}>
+          <img src={logo} alt="Ki pilot logo" />
+          <ul style={listStyle}>
+            {['Overview', 'Sensors', 'Ai', 'Learning', 'About'].map((text, index) => (
+              <li key={index} style={listItemStyle}>
+                <Link 
+                  to={`/${text.toLowerCase()}`} 
+                  style={linkStyle}
+                  onMouseOver={linkHoverStyle}
+                >
+                  {text}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </nav>
       <Outlet />
-    </>
+    </header>
   );
 };
 
 export default Navbar;
-
-
-/*
-const Navbar = () => {
-  return (
-    <>
-      <nav className="bg-white text-black py-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold">MyWebsite</div>
-          <ul className="flex space-x-8">
-            <li>
-              <Link to="/" className="hover:text-gray-400">
-                Overview
-              </Link>
-            </li>
-            <li>
-              <Link to="/sensors" className="hover:text-gray-400">
-                Sensors
-              </Link>
-            </li>
-            <li>
-              <Link to="/ai" className="hover:text-gray-400">
-                Ai
-              </Link>
-            </li>
-            <li>
-              <Link to="/learning" className="hover:text-gray-400">
-                Learning
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="hover:text-gray-400">
-                About
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <Outlet />
-    </>
-  );
-};
-
-export default Navbar;
-*/

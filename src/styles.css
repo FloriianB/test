@@ -13,7 +13,77 @@ body {
     width: 90%;  
     max-width: 1200px;  
     margin: 0 auto;   
+ 
     }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .text-4xl {
+        font-size: 32px;
+    }
+    
+    .font-bold {
+        font-weight: bold;
+    }
+    
+    .mb-8 {
+        margin-bottom: 2rem;
+    }
+    
+    .text-lg {
+        font-size: 18px;
+    }
+    
+    .text-gray-700 {
+        color: #4a4a4a;
+    }
+    
+    .max-w-2xl {
+        max-width: 500px;
+    }
+    
+    .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .leading-relaxed {
+        line-height: 1.5;
+    }
+    
+    .links {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .link {
+        display: inline-block;
+        background-color: #333;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    
+    .link:hover {
+        background-color: #555;
+    }
+    
     
       
     
@@ -138,3 +208,67 @@ body {
     a, button { 
     transition: all 0.3s ease;
     }
+
+
+
+        /* #####################################Overview##################################### */
+    
+
+    .Sensors-section {
+        background-color: #ffffff;
+        color: #333;
+        font-family: Arial, sans-serif;
+      }
+      
+      .wrapper {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+      }
+      
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .items-center {
+        align-items: center;
+      }
+      
+      .items-stretch {
+        align-items: stretch;
+      }
+      
+      .S-inner-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      
+      .main2 {
+        padding: 20px;
+      }
+      
+      .img1 {
+        max-width: 100px;
+      }
+      
+      .title {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+      
+      .text {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      
+      .links {
+        list-style: none;
+      }
+      
+      .link {
+        color: #007bff;
+        text-decoration: none;
+      }
+      
