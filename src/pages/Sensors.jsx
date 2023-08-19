@@ -2,6 +2,7 @@ import React from 'react';
 import AI from '../assets/images/green-ai.png';
 import Sensor from '../assets/images/green-sensor.png';
 
+
 function Sensors() {
   const styles = {
     container: {

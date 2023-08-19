@@ -57,7 +57,7 @@ const Navbar = () => {
         <div style={containerStyle}>
           <img src={logo} alt="Ki pilot logo" />
           <ul style={listStyle}>
-            {['Overview', 'Sensors', 'Ai', 'Learning', 'About'].map((text, index) => (
+            {['Overview', 'Sensors', 'Ai', 'Learning', 'About', 'Typ'].map((text, index) => (
               <li key={index} style={listItemStyle}>
                 <Link 
                   to={`/${text.toLowerCase()}`} 

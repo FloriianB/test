@@ -6,7 +6,8 @@ import Ai from "../pages/Ai"
 import About from "../pages/About"
 import Learning from "../pages/Learning"
 import Navbar from "./Navbar";
-import '../styles.css'
+import Test from "../pages/Test";
+
 
 export default function Router() {
   return (
@@ -20,6 +21,7 @@ export default function Router() {
           <Route path="/sensors" element={<Sensors />} />
           <Route path="/learning" element={<Learning />} />
           <Route path="/about" element={<About />} />
+          <Route path="/test" element={<Test />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

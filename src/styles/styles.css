@@ -212,63 +212,22 @@ body {
 
 
         /* #####################################Overview##################################### */
-    
+    .layout{
+ 
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        margin: 0 auto 0;
+        width: 100%;
+        height: auto;
+        min-height: 108.3984375vw;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;     
+      }
 
-    .Sensors-section {
-        background-color: #ffffff;
-        color: #333;
-        font-family: Arial, sans-serif;
+      p{
+        color:aqua;
       }
-      
-      .wrapper {
-        max-width: 1200px;
-        margin: auto;
-        padding: 20px;
-      }
-      
-      .flex {
-        display: flex;
-        justify-content: space-between;
-      }
-      
-      .items-center {
-        align-items: center;
-      }
-      
-      .items-stretch {
-        align-items: stretch;
-      }
-      
-      .S-inner-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
-      
-      .main2 {
-        padding: 20px;
-      }
-      
-      .img1 {
-        max-width: 100px;
-      }
-      
-      .title {
-        font-size: 24px;
-        margin: 10px 0;
-      }
-      
-      .text {
-        font-size: 16px;
-        margin-bottom: 20px;
-      }
-      
-      .links {
-        list-style: none;
-      }
-      
-      .link {
-        color: #007bff;
-        text-decoration: none;
-      }
-      
