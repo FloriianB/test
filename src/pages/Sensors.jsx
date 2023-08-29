@@ -81,7 +81,7 @@ function Sensors() {
       <main style={styles.main}>
         <div style={styles.section}>
           <img style={styles.img} src={AI} alt="ki logo" />
-          <h2 style={styles.subTitle}>Machinelles Lernen</h2>
+          <h2 style={styles.subTitle}>Machinelles Lernen</h2>  
           <p style={styles.description}>A near description of the machine learning algorithms</p>
           <a href="#" style={styles.link}>Learn more</a>
         </div>
