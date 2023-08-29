@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from "react-router-dom";
 
 /*
 export default function Overview() {
@@ -100,20 +101,22 @@ export default function Overview() {
                     margin: '1em auto 1em auto'
                 }}>
                     {/* Content here */}
-                    <a href="/Learning" class="p_index__btn" aria-label="START" style={{
+                    <Link to="/dashboard" class="p_index__btn" aria-label="START">
+                        <a href="/Learning" class="p_index__btn" aria-label="START" style={{
 
-                        color: '#f9f9f9',
-                        cursor: 'pointer',
-                        fontSize: '16px',
-                        lineHeight: '45px',
-                        maxWidth: '160px',
-                        width: '100%',
-                        textDecoration: 'none',
-                        textTransform: 'uppercase'
-                        // Other styles here
-                    }}>
-                      <div><span>START it</span></div>
-                    </a>
+                            color: '#f9f9f9',
+                            cursor: 'pointer',
+                            fontSize: '16px',
+                            lineHeight: '45px',
+                            maxWidth: '160px',
+                            width: '100%',
+                            textDecoration: 'none',
+                            textTransform: 'uppercase'
+                            // Other styles here
+                        }}>
+                          <div><span>START it</span></div>
+                        </a>
+                    </Link>
                   </div>
                 </div>
             </div>
