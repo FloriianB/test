@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Outlet } from "react-router-dom";
 import logo from '../assets/images/ki-pilot.png';
+import '../styles/Navbar.css'
+import '../styles/styles.css'
 
 const Navbar = () => {
   const navStyle = {

@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+    padding-bottom: 20px;
+    color: #f9f9f9;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #3d6a52;
+    /* ... */
+  }
+  
+  /* Andere CSS-Klassen hier... */
+  
+  .dot-title{
+    
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.dot-title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #f9f9f9;
+}
+
+.dot-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #c3c3c3;    
+}

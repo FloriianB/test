@@ -1,65 +1,25 @@
 
 
 body {
-    font-family: 'arial';
-    background-color: #FFF;
+    font-family: Helvetica, sans-serif;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
     
       
-    
-    .container { 
-    width: 90%;  
-    max-width: 1200px;  
-    margin: 0 auto;   
- 
-    }
+   
 
     body {
         margin: 0;
         padding: 0;
     }
     
-    .container {
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
-        padding: 20px;
-    }
+   
+ 
     
-    .text-center {
-        text-align: center;
-    }
     
-    .text-4xl {
-        font-size: 32px;
-    }
-    
-    .font-bold {
-        font-weight: bold;
-    }
-    
-    .mb-8 {
-        margin-bottom: 2rem;
-    }
-    
-    .text-lg {
-        font-size: 18px;
-    }
-    
-    .text-gray-700 {
-        color: #4a4a4a;
-    }
-    
-    .max-w-2xl {
-        max-width: 500px;
-    }
-    
-    .mx-auto {
-        margin-left: auto;
-        margin-right: auto;
-    }
     
     .leading-relaxed {
         line-height: 1.5;
@@ -73,7 +33,7 @@ body {
     .link {
         display: inline-block;
         background-color: #333;
-        color: #ffffff;
+        color: #f9f9f9;
         padding: 10px 20px;
         border-radius: 25px;
         text-decoration: none;
@@ -89,21 +49,16 @@ body {
     
     /* Navbar Styles */
     
-      
-    
     .nav {  
     background-color: blue; 
     transition: background-color 0.3s ease; 
     }
     
-      
-    
     .nav.scrolled {
     background-color: rgba(255, 255, 255, 0.9);
     }
     
-      
-    
+
     .nav .container {
     display: flex;
     justify-content: space-between;
@@ -169,30 +124,7 @@ body {
     /* Overview Page Styles */
     
       
-    
-    .bg-white {
-    background-color: #FFF;
-    }
-    
-      
-    
-    .text-center {
-    text-align: center;
-    }
-    
-      
-    
-    .text-lg {
-    font-size: 1.125rem;
-    }
-    
-      
-    
-    .text-4xl {
-    font-size: 2.5rem;
-    }
-    
-      
+   
     
     img {
     max-width: 100%;
@@ -218,16 +150,12 @@ body {
         z-index: 1;
         top: 0;
         left: 0;
-        margin: 0 auto 0;
+   
         width: 100%;
-        height: auto;
-        min-height: 108.3984375vw;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;     
       }
 
-      p{
-        color:aqua;
-      }
+      
