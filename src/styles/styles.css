@@ -1,25 +1,23 @@
 
 
-body {
+html,body {
     font-family: Helvetica, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
     height: 100%;
 }
-    
-      
-   
+/* override browser default */
+* {
+    box-sizing: border-box;
+  }
 
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-   
- 
-    
-    
+/* use viewport-relative units to cover page fully */
+body {
+  height: 100vh;
+  width: 100vw;
+}
+      
     
     .leading-relaxed {
         line-height: 1.5;
@@ -90,34 +88,7 @@ body {
     
       
     
-    /* Learning Page Styles */
-    
-      
-    
-    .learning-page {
-    padding: 2rem 0;
-    color: #333;
-    }
-    
-      
-    
-    .header, .content, .footer {
-    padding: 1rem 0;
-    }
-    
-      
-    
-    .intro, .algorithms {
-    margin-bottom: 2rem; 
-    }
-    
-      
-    
-    .algorithm {  
-    margin-bottom: 1.5rem;    
-    border-bottom: 1px solid #ddd;  
-    padding-bottom: 1rem; 
-    }
+   
     
       
     
@@ -131,7 +102,11 @@ body {
     height: auto;
     }
     
-      
+    .container { 
+        padding-bottom: 300px;
+        width: 100%;
+        height: 100%;
+    }
     
     /* Transitions */
     
@@ -145,12 +120,12 @@ body {
 
         /* #####################################Overview##################################### */
     .layout{
- 
+        margin: 0;
         position: relative;
         z-index: 1;
         top: 0;
         left: 0;
-   
+        height: 100%;
         width: 100%;
         flex-grow: 1;
         display: flex;
@@ -159,3 +134,4 @@ body {
       }
 
       
+     

@@ -1,33 +1,39 @@
-.bg-white {
+.bg {
     background-color: #ffffff;
     background-image: url("../assets/images/beeing.png");
     color: #f9f9f9;
     background-size:cover;
     background-position: center;
     width: 100%;
-    height: 900px;
-    margin-top: 1em;
+    height: 100%;
     margin: auto;
     object-fit: cover;
-    top:0;
-    position: relative;
-}
-
-.layout {
-    height: 100%;
-    padding: 300px 0 300px 0;
-    text-align: right;
+    
    
 }
 
 
 
-
-.container { 
-    margin-bottom: 300px;
-    width: 80%;
+.layout {
     height: 100%;
+    padding: 500px 0 100px 0;
+    text-align: right;
 }
+
+
+.sub-title{
+    text-align: right;
+}
+
+
+.landing-section{
+    margin-left: 380px;
+    height: 100%;
+    padding: 100px 0 500px 0;
+    text-align: right;
+}
+
+
 
 
 
@@ -49,7 +55,7 @@
     padding: 0;
     width: 100%;
     margin: 0 auto;
-
+    width: 80%;
     font-size: 28px;
     font-weight: 500;
     letter-spacing: 0;
@@ -57,7 +63,7 @@
 }
 
 .description-text{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     font-size: 30px;
@@ -70,45 +76,16 @@
 }
 
 .description-text2{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     font-size: 30px;
-    padding-top: 300px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+   
     font-size: 28px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 1.5em;
-    padding-bottom: 300px;
 }
 
-.dot-title{
-    
-    font-size: 28px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 1.5em;
-    padding-bottom: 30px;
-    position: relative;
-}
-
-.dot-title::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 5px;
-  width: 55px;
-  background-color: #f9f9f9;
-}
-
-.dot-title::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 2px;
-    height: 1px;
-    width: 95%;
-    max-width: 255px;
-    background-color: #c3c3c3;    
-}
