@@ -16,7 +16,7 @@
 
 .layout {
     height: 100%;
-    padding: 500px 0 100px 0;
+    padding: 200px 0px 300px 0;
     text-align: right;
 }
 
@@ -27,9 +27,8 @@
 
 
 .landing-section{
-    margin-left: 380px;
     height: 100%;
-    padding: 100px 0 500px 0;
+    padding: 30px 70px 360px 0;
     text-align: right;
 }
 
@@ -81,7 +80,7 @@
     text-align: left;
     font-size: 30px;
     padding-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 900px;
    
     font-size: 28px;
     font-weight: 500;

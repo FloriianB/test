@@ -1,17 +1,18 @@
-# Verwenden Sie ein offizielles Node-Image als Eltern-Image
-FROM node:14
+# Verwenden eines Basis-Images
+FROM node:16
 
-# Arbeitsverzeichnis im Container setzen
-WORKDIR /usr/src/app
+# Arbeitsverzeichnis setzen
+WORKDIR /app
 
-# Alle App-Dateien in den Container kopieren
-COPY . .
-
-# Abhängigkeiten installieren
+# Abhängigkeiten kopieren und installieren
+COPY package*.json ./
 RUN npm install
 
-# Port 3000 für den Zugriff auf die App freigeben
+# Quellcode kopieren
+COPY . .
+
+# Port definieren
 EXPOSE 3000
 
-# App starten
-CMD ["npm", "start"]
+# Anwendung starten
+CMD ["npm", "run", "dev"]

@@ -29,19 +29,18 @@ const Navbar = () => {
     textDecoration: "none",
     alignItems: "center",
     maxWidth: '100%',
+    paddingBottom: '30px',
     paddingRight: '20px', 
     paddingLeft: '20px',
-    paddingTop:'10px',
- 
+    paddingTop:'30px',
     margin:'0'
   };
 
   const linkStyle = {
     textDecoration: "none",
-  
     color: "#333",
     position: 'relative',
-    paddingTop:'10px',
+    paddingTop:'20px',
     fontWeight: '400',
     fontSize: '.625rem',
     letterSpacing: '.01em',

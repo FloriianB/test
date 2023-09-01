@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Plot from 'react-plotly.js';
-import { useSpring, animated } from 'react-spring';
-import { DBSCAN } from 'sklearn.cluster';
-import { KNeighborsClassifier } from 'sklearn.neighbors';
+
+
 
 const DataProcessingAndAnimation = () => {
   // Dummy-Daten generieren
