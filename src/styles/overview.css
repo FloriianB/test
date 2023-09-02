@@ -1,6 +1,11 @@
 .bg {
+<<<<<<< HEAD
     background-color: #3d6a52;
     background-image: url("../assets/images/beeing.jpg");
+=======
+    background-color: #ffffff;
+    background-image: url("../assets/images/beeing.png");
+>>>>>>> 6788e6ba75244219330a18cc134b1128ee10fd91
     color: #f9f9f9;
     background-size:cover;
     background-position: center;
@@ -61,6 +66,7 @@
     line-height: 1.5em;
 }
 
+<<<<<<< HEAD
 h2{
     font-size: 28px;
     font-weight: 500;
@@ -104,6 +110,12 @@ h2:after {
     width: 100%;
     margin: 0 auto;
     text-align: right;
+=======
+.description-text{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+>>>>>>> 6788e6ba75244219330a18cc134b1128ee10fd91
     font-size: 30px;
     padding-top: 150px;
    
@@ -126,3 +138,7 @@ h2:after {
     letter-spacing: 0;
     line-height: 1.5em;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6788e6ba75244219330a18cc134b1128ee10fd91

@@ -1,0 +1,52 @@
+.learning-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+  
+  .outer-container{
+    display: flex; 
+    flex-basis: calc(50% - 80px);  
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3d6a52;
+  }
+
+  .learning-item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .learning-content {
+    background-color: #fad145;
+    margin: 4em;
+    padding: 3em;
+    font-size: 30px;
+    width: 300px;
+    height: 212px;
+
+  }
+  
+  .learning-button {
+    width: 130px;
+    height: 38px;
+    color: #fad145;
+    background-color: #3D6A52;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .placeholder-text {
+    font-family:  Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777;
+    padding: 1em 0 2em 0em;
+  }
+  

@@ -1,9 +1,14 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 0rem;
   text-align: center;
   background-color: black;
+=======
+  padding: 2rem;
+  text-align: center;
+>>>>>>> 6788e6ba75244219330a18cc134b1128ee10fd91
 }
 
 .logo {
@@ -35,7 +40,11 @@
 }
 
 .card {
+<<<<<<< HEAD
   padding: 0em;
+=======
+  padding: 2em;
+>>>>>>> 6788e6ba75244219330a18cc134b1128ee10fd91
 }
 
 .read-the-docs {

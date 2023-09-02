@@ -1,4 +1,5 @@
 .sensor-container {
+<<<<<<< HEAD
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -179,3 +180,185 @@
       margin-right: 10px;
     }
   }
+=======
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+ padding-bottom: 350px;
+  /* Achtung: Du hattest einen Tippfehler in deinem ursprünglichen Code (padingBottom) */
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #3d6a52;
+  
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #f9f9f9;
+}
+
+.subTitle{
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #fad145;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  margin: 20px;
+  width: 60%;
+}
+
+.boxImg {
+  width: 20%;
+  height: 50%;
+  margin-bottom: 15px;
+}
+
+.maindescription {
+  text-align: center;
+  margin: 0 auto;
+  color: #f9f9f9;
+  width: 80%;
+  padding-top: 30px;
+
+}
+
+p {
+  text-align: center;
+
+}
+
+.subTitle {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.link {
+  padding: 10px 20px;
+  color: #f9f9f9;
+  text-decoration: none;
+  border-radius: 1px;
+  background-color: #3d6a52;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.link:hover {
+  background: #f9f9f9;
+  color: #f9f9f9;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (bestehender Code) ... */
+
+/* Responsives Design für Tablets */
+@media (max-width: 768px) {
+   .main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .maindescription, .section {
+   margin: 0;
+   width: 100%;
+  }
+
+  .section {
+    width: 80%;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Responsives Design für Mobilgeräte */
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px;
+  }
+  .subTitle {
+    font-size: 30px;
+  }
+  .maindescription, .section {
+    width: 60%;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .section {
+    width: 80%;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+  }
+  .link {
+    padding: 10px 18px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 20px;
+  }
+  .subTitle {
+    font-size: 30px;
+  }
+  .maindescription, .section {
+    width: 50%;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .section {
+    width: 80%;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+  }
+  .link {
+    padding: 10px 18px;
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .sensor-container{
+    width: 100%;
+    margin-right: 10px;
+  }
+}
+>>>>>>> 6788e6ba75244219330a18cc134b1128ee10fd91

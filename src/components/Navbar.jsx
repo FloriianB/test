@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Outlet } from "react-router-dom";
 import logo from '../assets/images/ki-pilot.png';
+import '../styles/Navbar.css'
+import '../styles/styles.css'
 
 const Navbar = () => {
   const navStyle = {
@@ -8,7 +10,6 @@ const Navbar = () => {
     textDecoration: "none",
     borderBottom: '1px solid #eaeaea',
     transition: "background-color 0.3s ease",
-    
   };
 
   const listStyle = {
@@ -27,18 +28,19 @@ const Navbar = () => {
     justifyContent: "space-between",
     textDecoration: "none",
     alignItems: "center",
-    padding: "1rem 2rem",
-    maxWidth: '1200px',
-    margin: 'auto'
-    
+    maxWidth: '100%',
+    paddingBottom: '30px',
+    paddingRight: '20px', 
+    paddingLeft: '20px',
+    paddingTop:'30px',
+    margin:'0'
   };
 
   const linkStyle = {
     textDecoration: "none",
-  
     color: "#333",
     position: 'relative',
-    padding: '0.3125rem 0',
+    paddingTop:'20px',
     fontWeight: '400',
     fontSize: '.625rem',
     letterSpacing: '.01em',
@@ -57,7 +59,7 @@ const Navbar = () => {
         <div style={containerStyle}>
           <img src={logo} alt="Ki pilot logo" />
           <ul style={listStyle}>
-            {['Overview', 'Sensors', 'Ai', 'Learning', 'About'].map((text, index) => (
+            {['Overview', 'Sensors', 'Ai', 'Learning', 'About', 'Model'].map((text, index) => (
               <li key={index} style={listItemStyle}>
                 <Link 
                   to={`/${text.toLowerCase()}`} 
