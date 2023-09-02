@@ -1,0 +1,29 @@
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    margin-top: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+    height: 23em;
+    box-shadow: 0.5em 0.5em 0.125em 0.0625em #3d6a52;
+    padding: 1.875em;
+    background-color: #fad145;
+  }
+  
+  .box-title {
+    line-height: 1px;
+    text-align: center;
+    color: #3d6a52;
+    font-size: 2.1875em;
+    line-height: 1.7em;
+    margin: 20% 7.625em 0.625em 7.625em;
+    font-weight: 400;
+  }
+  

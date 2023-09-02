@@ -1,0 +1,128 @@
+.bg {
+    background-color: #3d6a52;
+    background-image: url("../assets/images/beeing.jpg");
+    color: #f9f9f9;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+    
+   
+}
+
+
+
+.layout {
+    height: 100%;
+    padding: 200px 0px 300px 0;
+    text-align: right;
+}
+
+
+.sub-title{
+    text-align: right;
+}
+
+
+.landing-section{
+    height: 100%;
+    padding: 30px 70px 360px 0;
+    text-align: right;
+}
+
+
+
+
+
+.description-section{
+    position: sticky;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background-color: #333;
+
+}
+
+.description{
+    margin-top: 120px;
+    position: relative;
+    flex: 0 0 auto;
+    top:0;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.sub-title{
+    text-align: right;
+}
+
+.start{
+    color: #f9f9f9;
+}
+
+h2:before {
+    text-align: right;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #f9f9f9
+}
+
+h2:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #f9f9f9;
+  }
+
+.description-text{
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 150px;
+   
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+}
+
+.description-text2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 900px;
+   
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+}
